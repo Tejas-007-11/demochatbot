@@ -16,7 +16,7 @@ body {
 
 }
 
-/* Floating Chat Button */
+
 #chat-btn {
   position: fixed;
   bottom: 20px;
@@ -286,19 +286,19 @@ body {
 
 @keyframes rocket-flight {
   0% {
-    transform: translate(0, 0) rotate(0deg); /* Start at the initial position */
+    transform: translate(0, 0) rotate(0deg);
   }
   25% {
-    transform: translate(-150px, -100px) rotate(45deg); /* Move to upper-left */
+    transform: translate(-150px, -100px) rotate(45deg); 
   }
   50% {
-    transform: translate(150px, -200px) rotate(90deg); /* Move to top-right */
+    transform: translate(150px, -200px) rotate(90deg); 
   }
   75% {
-    transform: translate(300px, 50px) rotate(135deg); /* Move to bottom-right */
+    transform: translate(300px, 50px) rotate(135deg); 
   }
   100% {
-    transform: translate(0, 0) rotate(360deg); /* Return to the initial position */
+    transform: translate(0, 0) rotate(360deg); 
   }
 }
 

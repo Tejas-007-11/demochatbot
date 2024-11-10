@@ -16,7 +16,7 @@ function sendMessage() {
             displayMessage(botResponse, "bot");
         }, 1000);
 
-        // Clear input field
+        
         document.getElementById('user-input').value = "";
     }
 }
@@ -51,8 +51,8 @@ async function getBotResponse(userInput) {
 
             if (response.ok) {
                 const data = await response.json();
-                console.log("API Data:", data); // Debug: Check if data is received correctly
-                return `Here is the shipment information: ${JSON.stringify(data)}`; // Format this output
+                console.log("API Data:", data); 
+                return `Here is the shipment information: ${JSON.stringify(data)}`; 
             } else {
                 console.error("API error:", response.status, response.statusText);
                 return "I'm unable to retrieve shipment data at the moment.";
